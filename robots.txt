@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /ops/
+Sitemap: https://jakeh-32.github.io/sitemap.xml
