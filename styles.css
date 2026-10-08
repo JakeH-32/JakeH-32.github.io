@@ -202,3 +202,8 @@ p { margin: 0 0 1em; }
   .guide-hero { padding: 24px 0 40px; }
   .pick { padding: 26px 28px; }
 }
+
+/* Generated illustrations: shown as circles to match the original badge style */
+.illus-img { border-radius: 50%; object-fit: cover; aspect-ratio: 1; background: var(--cream); }
+.hero-illus.illus-img { max-width: 420px; height: auto; margin-inline: auto; display: block; }
+.logo-mark { border-radius: 0; }
