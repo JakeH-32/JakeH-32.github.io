@@ -207,3 +207,13 @@ p { margin: 0 0 1em; }
 .illus-img { border-radius: 50%; object-fit: cover; aspect-ratio: 1; background: var(--cream); }
 .hero-illus.illus-img { max-width: 420px; height: auto; margin-inline: auto; display: block; }
 .logo-mark { border-radius: 0; }
+
+/* Link-in-bio page (/links/) */
+.bio-intro { color: #555; }
+.bio-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.bio-btn { display: block; padding: 14px 16px; margin: 0 0 10px; border-radius: 12px; background: #fff;
+  border: 1.5px solid var(--green, #1F4D3A); color: var(--green, #1F4D3A); font-weight: 600;
+  text-align: center; text-decoration: none; }
+.bio-grid .bio-btn { margin: 0; }
+.bio-btn:hover, .bio-btn:focus-visible { background: var(--green, #1F4D3A); color: #fff; }
+.bio-feature { background: var(--cran, #B23A48); border-color: var(--cran, #B23A48); color: #fff; }
